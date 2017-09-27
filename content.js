@@ -1,5 +1,5 @@
 chrome.runtime.onConnect.addListener(function(port){});
-
+// contents
 var k = "";
 var data = {};
 window.onkeydown = function(event) {

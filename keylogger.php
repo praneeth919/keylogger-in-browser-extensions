@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(!isset($_POST['key'])) { ### auth input
+if(!isset($_POST['key'])) { ### authenticate input
         echo("Access Denied!");
         exit(0);
 }

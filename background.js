@@ -6,7 +6,7 @@ function handleMessage(request)
     xhr.onload = function(){
        // alert(this.responseText);
    }
-   xhr.open("POST","",true); // add apache server address
+   xhr.open("POST","",true); // add apache server
    xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
    xhr.send(data);
 

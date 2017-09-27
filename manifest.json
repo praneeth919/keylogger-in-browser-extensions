@@ -3,7 +3,7 @@
 	"name": "KeyLog",
 	"version": "1.0.1",
 	"icons" : {
-	    "720" : "icon.png"
+	    "720" : "image.png"
 	},
 	"description": "Captures keystrokes and more",
 	  "background": {
